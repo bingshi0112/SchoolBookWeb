@@ -1,0 +1,39 @@
+<!-- Top most nav bar -->
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid">
+        <ul class="menu">
+            <li><a [routerLink]="['/']"><span class="iconic home"></span> Home</a></li>
+            <li><a><span class="iconic plus-alt">Courses</span></a>
+                <ul>
+                    <li><a [routerLink]="['/courses-list/registration']">Course Registration</a></li>
+                    <li><a [routerLink]="['/courses-list']">Course List</a></li>
+                </ul>
+            </li>
+            <li><a [routerLink]="['/searchProfile']"><span class="iconic magnifying-glass"></span>Profiles</a>
+                <ul>
+                    <li><a [routerLink]="['/searchProfile']">Search</a></li>
+                    <li><a [routerLink]="['/userProfile']">Profile</a></li>
+                    <li><a [routerLink]="['/makeProfile']">Create Profile</a></li>
+                </ul>
+            </li>
+            <li><a [routerLink]="['/products-list']"><span class="iconic map-pin"></span> Products</a>
+                <ul>
+                    <li><a [routerLink]="['/products-list']">Product List</a></li>
+                    <li><a [routerLink]="['/register-product']">Register Products</a></li>
+                </ul>
+            </li>
+        </ul>
+        <!--<div class="clearfix"></div>-->
+
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a class="fb-button" href="#">
+                    <div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false"
+                         data-auto-logout-link="true"></div>
+                </a>
+            </li>
+        </ul>
+
+    </div><!-- /.navbar-collapse -->
+</nav>
+<!-- End of top most nav bar -->

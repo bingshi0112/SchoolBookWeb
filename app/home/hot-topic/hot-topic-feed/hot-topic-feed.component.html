@@ -1,0 +1,18 @@
+<div class="feed pre-scrollable">
+<!--<div class="feed pre-scrollable" style="min-height: 375px">-->
+    <!--<h3>{{data?.title}}</h3>-->
+    <!--<h3>{{data?.url}}</h3>-->
+    <ul>
+        <li class="topic_text" *ngFor="let entry of data?.entries">
+            <h3><a class="feed-title" href="{{entry.link}}">{{entry.title}}</a></h3>
+            <!--<h3><a style="font-size: large" href="{{entry.link}}">{{entry.title}}</a></h3>-->
+            <span class = "feed-date">{{entry.publishedDate}}</span> <em class="bullet"></em>
+            <!--<span style="font-size: small; color: darkgrey" class="topic_text">{{entry.publishedDate}}</span> <em class="bullet"></em>-->
+            <p class = "feed-content">{{entry.contentSnippet}}</p>
+            <!--<p style="font-size: large" class="topic_text">{{entry.contentSnippet}}</p>-->
+        </li>
+    </ul>
+</div>
+
+
+

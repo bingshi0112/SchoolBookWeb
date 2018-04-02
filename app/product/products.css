@@ -1,0 +1,104 @@
+/* line 5, products.scss */
+div.product {
+  background: url("../../img/denim.png");
+  /*margin: 0;*/
+}
+
+
+/* line 8, products.scss */
+div#paddingDiv {
+  display: none;
+}
+
+/* line 12, products.scss */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200%;
+}
+
+/* line 18, products.scss */
+div.thumbnail {
+  height: 30%;
+}
+/* line 20, products.scss */
+div.thumbnail a {
+  position: relative;
+  display: inline-block;
+  height: 80%;
+  width: 100%;
+}
+/* line 26, products.scss */
+div.thumbnail a img {
+  max-height: 70%;
+  max-width: 100%;
+  margin: auto;
+}
+/* line 31, products.scss */
+div.thumbnail a div.caption {
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  margin: auto;
+}
+/* line 36, products.scss */
+div.thumbnail a div.caption h4 {
+  display: block;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 45, products.scss */
+  div.thumbnail {
+    height: 30%;
+  }
+  /* line 47, products.scss */
+  div.thumbnail a {
+    position: relative;
+    display: inline-block;
+    height: 80%;
+    width: 100%;
+  }
+  /* line 53, products.scss */
+  div.thumbnail a img {
+    max-height: 70%;
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+  }
+  /* line 59, products.scss */
+  div.thumbnail a div.caption {
+    display: block;
+    height: 30%;
+    width: 100%;
+    margin: auto;
+  }
+  /* line 64, products.scss */
+  div.thumbnail a div.caption h4 {
+    display: inline-block;
+    height: auto;
+    width: 40%;
+    margin: 1px;
+  }
+  /* line 70, products.scss */
+  div.thumbnail a div.caption span {
+    display: block;
+    margin: 1px;
+  }
+  /* line 77, products.scss */
+  div.thumbnail div.rating {
+    height: 20%;
+    margin: 7px;
+  }
+
+  /* line 82, products.scss */
+  div#paddingDiv {
+    height: 100%;
+    display: block;
+  }
+}
+
+
+
+
+/*# sourceMappingURL=products.css.map */

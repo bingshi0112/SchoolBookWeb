@@ -1,0 +1,38 @@
+{
+  "San Jose State University": {
+    "Spring 2016": {
+      "CMPE-280": {
+        "course_num": "280",
+        "department": "CMPE",
+        "description": "Web User-interface (UI) design and development with contemporary web standards. Understand interaction and interface design principles and processes for rich web applications, mobile web, web graphics, web design fundamentals, tools, interaction using client side scripting and server side frameworks. Pre-requisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+        "discussion": [
+          {
+            "content": "This course is awesome",
+            "user_name": "Bing Shi"
+          },
+          {
+            "content": "We should have more lecture like this.",
+            "user_name": "Lam Tran"
+          }
+        ],
+        "prof": "Duc Huy Doan",
+        "section": "01",
+        "teacherAssisstant": "Obama"
+      },
+      "CMPE-272": {
+        "course_num": "272",
+        "department": "CMPE",
+        "description": "Web User-interface (UI) design and development with contemporary web standards. Understand interaction and interface design principles and processes for rich web applications, mobile web, web graphics, web design fundamentals, tools, interaction using client side scripting and server side frameworks. Pre-requisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+        "discussion": [
+          {
+            "content": "Enterprise software, system and virtualized platforms. Covers OSs, NOS, security, databases (OLTP, Big Data, Analytics), transactions, groupware, components, web services, web, systems management and app development. Covers standards and emerging technologies. Prerequisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+            "user_name": "Bing Shi"
+          }
+        ],
+        "prof": "Richard Sinn",
+        "section": "01",
+        "teacherAssisstant": "Some Guy"
+      }
+    }
+  }
+}

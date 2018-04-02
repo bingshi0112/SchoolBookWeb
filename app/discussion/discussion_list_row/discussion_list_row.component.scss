@@ -1,0 +1,20 @@
+.message-bubble {
+  border-bottom: thin grey;
+  padding: 10px 0px 10px 0px;
+}
+
+.message-bubble:nth-child(even) {
+  background-color: #F5F5F5;
+}
+
+.message-bubble > * {
+  padding-left: 10px;
+}
+
+div.discussionrow {
+  text-align: left;
+  span{
+    display: inline-block;
+    margin: auto;
+  }
+}

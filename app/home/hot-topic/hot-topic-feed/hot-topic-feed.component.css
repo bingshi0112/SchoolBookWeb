@@ -1,0 +1,18 @@
+.feed{
+    min-height: 375px
+}
+
+.feed-title{
+    font: 16px/16px Arial, sans-serif;
+    color: lightgrey;
+}
+
+.feed-date{
+    font: 11px/16px Arial, sans-serif;
+    color: rgba(31, 118, 189, 1)
+}
+
+.feed-content{
+    color: darkgrey;
+    font: 14px/16px Arial, sans-serif;
+}

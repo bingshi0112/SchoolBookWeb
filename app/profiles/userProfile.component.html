@@ -1,0 +1,23 @@
+<div class="container-fluid" *ngIf="user">
+    <div class="row">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
+            <div class="flex-container">
+              <div class="flex-item all">
+                <img class="flex-item photo" [src]="imageUrl" alt='profile photo'/>
+                <div class="flex-item name">Name: {{user.firstName}} {{user.lastName}}</div>
+                <div class="flex-item school">School: {{user.school}}</div>
+                <div class="flex-item education">Education: {{user.education}}</div>
+                <div class="flex-item proficiency">Proficiency: {{user.proficiency}}</div>
+                <div class="flex-item email">email address: {{user.email}}</div>
+                <div class="flex-item phoneNumber">Phone number: {{user.phoneNumber}}</div>
+                <div class="flex-item moreInfo">Description: {{user.selfInfo}}</div>
+              </div>
+            </div>
+        </div>
+        <div class="col-xs-2">
+            <!--<a class="btn btn-primary" [routerLink]="['/profiles']" id="btnBack"><p id="back">Back to profile
+                page</p></a>-->
+        </div>
+    </div>
+</div>

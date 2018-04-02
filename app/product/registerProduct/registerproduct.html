@@ -1,0 +1,112 @@
+<div class="container container-body" style="background-image:url('../../../img/denim.png')">
+    <div class="row">
+        <div class="col-md-1 col-lg-1" style="height: 100%;display: block;">
+        </div>
+
+        <div class="col-md-10 col-lg-10" style="height: 100%;display: block;">
+            <form id="myform" #myForm="ngForm" (ngSubmit)="onSubmit(myForm.form)">
+                <!-- Name of the Product-->
+
+                <div class="form-group">
+                    <label for="productname">Product Name :</label>
+                    <input name="productname" ngModel #productname="ngModel" (change)="log(productname)"
+                           id="productname" type="text" class="form-control" required minlength="3">
+                    <div *ngIf="productname.touched && productname.errors">
+                        <div class="alert alert-danger"
+                             *ngIf="productname.errors.required">
+                            The Name is Required.
+                        </div>
+                        <div class="alert alert-danger"
+                             *ngIf="productname.errors.minlength">
+                            Min length is {{productname.errors.requiredLength}}.
+                        </div>
+                    </div>
+
+                    <label>Category :</label>
+                    <select name="category" [(ngModel)]="category" required>
+                        <option *ngFor="let cat of categories" [value]=cat> {{cat}}</option>
+                    </select>
+
+                    <label for="location">Location :</label>
+                        <input type="text" name="loc" id="location" ngModel required>
+
+                    <label for="price">$</label>
+                    <input type="number" ngModel #p="ngModel" id="price" name="price" required>
+                    <div *ngIf="p.touched && p.errors">
+                        <div class="alert alert-danger"
+                             *ngIf="p.errors.required">
+                            The Price is Required.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="firstname">First Name :</label>
+                    <input name="firstname" ngModel #firstname="ngModel" (change)="log(firstname)"
+                           id="firstname" type="text" class="form-control" required minlength="3">
+                    <div *ngIf="firstname.touched && firstname.errors">
+                        <div class="alert alert-danger"
+                             *ngIf="firstname.errors.required">
+                            The Name is Required.
+                        </div>
+                        <div class="alert alert-danger"
+                             *ngIf="firstname.errors.minlength">
+                            Min length is {{firstname.errors.requiredLength}}.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="desc">Description</label>
+            <textarea name="descr" ngModel #desc="ngModel" (change)="log(desc)"
+                      id="desc" type="text" cols="30" rows="10" class="form-control"
+                      placeholder="Describe..." required minlength="5"></textarea>
+
+                    <div *ngIf="desc.touched && desc.errors">
+                        <div class="alert alert-danger"
+                             *ngIf="desc.errors.required">
+                            The Name is Required.
+                        </div>
+                        <div class="alert alert-danger"
+                             *ngIf="desc.errors.minlength">
+                            Min length is {{desc.errors.requiredLength}}.
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input name="email" id="email" ngModel #mailId="ngModel" placeholder="email" required>
+                    <div class="alert alert-danger" *ngIf="mailId.touched && !mailId.valid">
+                        Email is Required.
+                    </div>
+                </div>
+
+                <div>
+            <span>
+                <input type="file" class="" (change)="selectFile($event)"/>
+            </span>
+                </div>
+
+                <!--div class="imageUploader form-group">
+                <span class="btn btn-default btn-file glyphicon glyphicon-plus">
+                    <input type="file" multiple (change)="selectFile($event)"/>
+                </span>
+                    <div class="clearfix"></div>
+                    <div id="images" style="width: 50%;margin: 0 auto;"></div>
+                </div-->
+
+                <button class="btn btn-primary" style="margin: 10px" type="submit" [disabled]="!myForm.valid">Submit</button>
+            </form>
+
+        </div>
+
+        <div class="col-md-1 col-lg-1" style="height: 100%;display: block;">
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,8 @@
+<div class="body-content">
+    <a class="list-group-item"
+       *ngFor="let course of courseList"
+       [routerLink]="['/course-detail', uni, semester, course.id]">{{course.department + ' ' +
+        course.course_num}} <i class="glyphicon glyphicon-chevron-right pull-right"></i>
+    </a>
+</div>
+<a [routerLink]="['../../../registration']" class="register_text" id="register_user_btn"> Register new Course </a>

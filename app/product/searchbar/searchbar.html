@@ -1,0 +1,18 @@
+
+<div  style="text-align: center">
+    <form class="form-inline" style="margin-top: 10px">
+        <div class="form-group">
+            <input  id="location" class="form-control"  placeholder="Location..."  name="location" type="text">
+        </div>
+
+        <div class="form-group">
+            <input  id="category" class="form-control" style="float:left" placeholder="Category..." type="text"
+                    name="category" (input)="onInput($event)">
+            <span class="input-group-btn" style="text-align: left;display: inline;">
+                <button type="button" class="btn btn-secondary" aria-label="Left Align" (click)="onSubmit($event)">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                </button>
+            </span>
+        </div>
+    </form>
+</div>

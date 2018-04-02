@@ -1,0 +1,88 @@
+$break-large: 768px;
+$default-margin:10px;
+$child-margin :5px;
+
+div.product{
+  background: url('../../img/denim.png');
+}
+div#paddingDiv{
+  display: none;
+}
+
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200%;
+}
+
+div.thumbnail {
+  height: 30%;
+  a {
+    position: relative;
+    display: inline-block;
+    height: 80%;
+    width: 100%;
+
+    img {
+      max-height: 70%;
+      max-width: 100%;
+      margin: auto;
+    }
+    div.caption {
+      display: inline-block;
+      height: auto;
+      width: 100%;
+      margin: auto;
+      h4 {
+        display: block;
+        margin: 0px;
+      }
+    }
+  }
+}
+
+    @media screen and (min-width: $break-large) {
+      div.thumbnail {
+        height: 30%;
+        a {
+          position: relative;
+          display: inline-block;
+          height: 80%;
+          width: 100%;
+
+          img {
+            max-height: 70%;
+            max-width: 100%;
+            width : 100%;
+            margin: auto;
+          }
+          div.caption {
+            display: block;
+            height: 30%;
+            width: 100%;
+            margin: auto;
+            h4 {
+              display: inline-block;
+              height: auto;
+              width: 40%;
+              margin: 1px;
+            }
+            span {
+             display:block;
+              margin:1px;
+            }
+          }
+        }
+
+        div.rating {
+          height: 20%;
+          margin: 7px;
+        }
+      }
+      div#paddingDiv{
+        height: 100%;
+        display: block;
+      }
+
+    }
+

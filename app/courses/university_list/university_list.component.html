@@ -1,0 +1,7 @@
+<div class="body-content">
+    <a class="list-group-item"
+       *ngFor="let university of universities"
+       [routerLink]="['../semester-list', university.name]">{{university.name}}
+        <i class="glyphicon glyphicon-chevron-right pull-right"></i>
+    </a>
+</div>

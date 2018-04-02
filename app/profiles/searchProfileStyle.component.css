@@ -1,0 +1,65 @@
+.col-xs-2, .col-xs-8{
+  position: relative;
+  /*height: 100vh;*/
+  min-height: 670px;
+  background-color: #80CBC4;
+  background-image: url("./images/denim.png");
+  color: white;
+  font-family: Helvetica, Arial, "Times New Roman", sans-serif;
+  font-weight: bold;
+}
+#head{
+  text-align: left;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+#btnBack{
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #2196F3 !important;
+}
+#back{
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: white;
+}
+.btn{
+  background-image: url("./images/denim.png");
+  color: white;
+  font-family: Helvetica, Arial, "Times New Roman", sans-serif;
+  font-weight: bold;
+}
+.btn, .form-control{
+  margin: 0;
+  height: 30px;
+}
+.glyphicon{
+   color: white;
+}
+.flex-container{
+  display : flex;
+  flex-direction: column;
+  width : 100%;
+  margin-top: 5%;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.flex-item-search{
+  margin: auto;
+  width: 60%;
+}
+.flex-item-result{
+  margin-top: 5%;
+  margin-left: 42%;
+  overflow: auto;
+}

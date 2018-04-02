@@ -1,0 +1,76 @@
+<div class="body-content">
+    <form (ngSubmit)="onSubmited()" #courseForm="ngForm">
+        <div class="form-group">
+            <select class="form-control" name="uni" [(ngModel)]="course.uni" #uni="ngModel"
+                    (change)="onUpdateUniversity($event.target.value)" required>
+                <option *ngFor="let univ of universities" [value]="univ.name">{{univ.name}}</option>
+            </select>
+            <div [hidden]="uni.valid || uni.pristine"
+                 class="alert alert-danger">
+                University is required
+            </div>
+        </div>
+
+        <div class="form-group">
+            <select class="form-control" name="semester" [(ngModel)]="course.semester" #semester="ngModel">
+                <option *ngFor="let sem of semesters" [value]="sem.semester">{{sem.semester}}</option>
+            </select>
+            <div [hidden]="semester.valid || semester.pristine"
+                 class="alert alert-danger">
+                Semester is required
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input class="form-control has-feedback" type="text" required placeholder="Department" name="department"
+                   [(ngModel)]="course.department" #department="ngModel">
+            <div [hidden]="department.valid || department.pristine"
+                 class="alert alert-danger">
+                Department is required
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input class="form-control has-feedback" type="text" required placeholder="Course Number" name="course_num"
+                   [(ngModel)]="course.course_num" #course_num="ngModel">
+            <div [hidden]="course_num.valid || course_num.pristine"
+                 class="alert alert-danger">
+                Course number is required
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input class="form-control has-feedback" type="text" required placeholder="Section" name="section"
+                   [(ngModel)]="course.section" #section="ngModel">
+            <div [hidden]="section.valid || section.pristine"
+                 class="alert alert-danger">
+                Course section is required
+            </div>
+        </div>
+
+        <div class="form-group">
+            <textarea class="form-control has-feedback" required placeholder="Description" name="description"
+                      [(ngModel)]="course.description" #description="ngModel"></textarea>
+            <div [hidden]="description.valid || description.pristine"
+                 class="alert alert-danger">
+                Description is required
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input class="form-control has-feedback" type="text" required placeholder="Professor" name="prof"
+                   [(ngModel)]="course.prof" #prof="ngModel">
+            <div [hidden]="prof.valid || prof.pristine"
+                 class="alert alert-danger">
+                Professor name is required
+            </div>
+        </div>
+
+
+        <input class="form-control has-feedback" type="text" required placeholder="Teacher Assistant" name="ta"
+               [(ngModel)]="course.ta">
+
+        <button class="btn btn-primary center-block submit-button" type="submit" [disabled]="!courseForm.form.valid">Submit</button>
+    </form>
+    <ng2-popup #popup></ng2-popup>
+</div>

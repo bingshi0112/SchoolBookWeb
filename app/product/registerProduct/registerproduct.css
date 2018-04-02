@@ -1,0 +1,38 @@
+/* line 1, registerproduct.scss */
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background-image:url('../../../img/denim.png');
+  cursor: inherit;
+  display: block;
+}
+
+/* line 16, registerproduct.scss */
+.imageUploader {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+}
+
+.container-body{
+
+  /*margin: 0;*/
+}
+
+.form-group label{
+  color: lightgrey;
+}
+
+/*# sourceMappingURL=registerproduct.css.map */

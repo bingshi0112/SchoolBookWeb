@@ -1,0 +1,28 @@
+.divider {
+  height: 1px;
+  width: 100%;
+  display: block;
+  /* for use on default inline elements like span */
+  /*margin: 9px 0;*/
+  overflow: hidden;
+  background-color: #e5e5e5; }
+
+div.row{
+  /*min-height: 670px;*/
+  background: url('../img/denim.png');
+}
+
+.course-title{
+  color: lightgrey;
+  text-align: center;
+}
+
+.course-detail-content {
+  color: lightgrey;
+  /*margin: 5px;*/
+}
+
+.discussion-box{
+  margin-top: 10px;
+}
+/*# sourceMappingURL=course_detail.component.css.map */

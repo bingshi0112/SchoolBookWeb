@@ -1,0 +1,101 @@
+
+<div class = "container-fluid">
+  <div class = "row">
+    <div class = "col-xs-2"></div>
+    <div class = "col-xs-8">
+      <form (ngSubmit)="onSubmit(userForm.form)" #userForm="ngForm">
+        <div id = "blankSpaceTop"></div>
+        <div class = "form-group">
+          <label for = "firstName">First Name</label>
+          <input type = "text" class = "form-control" id = "firstName" required [(ngModel)]="newUser.firstName" name="firstName" #firstName="ngModel" placeholder="input your first name">
+          <div [hidden]="firstName.valid || firstName.pristine" class="alert alert-danger"> Name is required </div>
+        </div>
+
+        <div class = "form-group">
+          <label for = "lastName">Last Name</label>
+          <input type = "text" class = "form-control" id = "lastName" required [(ngModel)]="newUser.lastName" name="lastName" #lastName="ngModel" placeholder="input your last name">
+          <div [hidden]="lastName.valid || lastName.pristine" class="alert alert-danger"> Last Name is required </div>
+        </div>
+
+        <div class = "form-group">
+          <label for = "school">School</label>
+          <input type = "text" class = "form-control" id = "school" [(ngModel)]="newUser.school" name="school" placeholder="input your school">
+        </div>
+
+        <div class = "form-group">
+          <label for = "education">Education</label>
+          <input type = "text" class = "form-control" id = "education" [(ngModel)]="newUser.education" name="education" placeholder="input your education">
+        </div>
+
+        <div class = "form-group">
+          <label for = "proficiency">Proficiency</label>
+          <input type = "text" class = "form-control" id = "proficiency" [(ngModel)]="newUser.proficiency" name="proficiency" placeholder="input your proficiency">
+        </div>
+
+        <div class = "form-group">
+          <label for = "email">E-Mail</label>
+          <input type = "email" class = "form-control" id = "email" required [(ngModel)]="newUser.email" name="email" #email="ngModel" placeholder="input your email">
+          <div [hidden]="email.valid || email.pristine" class="alert alert-danger"> E-mail is required </div>
+        </div>
+
+        <div class = "form-group">
+          <label for = "phoneNumber">Phone Number</label>
+          <input type = "tel" class = "form-control" id = "phoneNumber" required [(ngModel)]="newUser.phoneNumber" name="phoneNumber" #phoneNumber="ngModel" placeholder="input your ten digit phone numbmer">
+          <div [hidden]="phoneNumber.valid || phoneNumber.pristine" class="alert alert-danger"> E-mail is required </div>
+        </div>
+
+        <div class = "form-group">
+          <label for = "selfInfo">Explain Yourself</label>
+          <textarea class = "form-control" rows = "7" id = "selfInfo" [(ngModel)]="newUser.selfInfo" name="selfInfo" placeholder="tell us more about youeself"></textarea>
+        </div>
+
+        <button type = "submit" class = "btn btn-primary btn-md" [disabled]="!userForm.form.valid">Submit</button>
+
+      </form>
+
+    </div>
+
+    <div class = "col-xs-2">
+      <!--<a class = "btn btn-primary" routerLink="/profiles" id = "btnBack"><p id = "back">Back to profile page</p></a>-->
+    </div>
+  </div>
+  <!--<div [hidden]="!submitted">
+    <h2>You submitted the following:</h2>
+    <div class="row">
+      <div class="col-xs-3">First Name</div>
+      <div class="col-xs-9  pull-left">{{ newUser.firstName }}</div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3">Last Name</div>
+      <div class="col-xs-9 pull-left">{{ newUser.lastName }}</div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3">School</div>
+      <div class="col-xs-9 pull-left">{{ newUser.school }}</div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3">Education</div>
+      <div class="col-xs-9 pull-left">{{ newUser.education }}</div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3">Proficiency</div>
+      <div class="col-xs-9 pull-left">{{ newUser.proficiency }}</div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3">E-Mail</div>
+      <div class="col-xs-9 pull-left">{{ newUser.email }}</div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3">Phone Number</div>
+      <div class="col-xs-9 pull-left">{{ newUser.phoneNumber }}</div>
+    </div>
+    <div class="row">
+      <div class="col-xs-3">Explain Yourself</div>
+      <div class="col-xs-9 pull-left">{{ newUser.selfInfo }}</div>
+    </div>
+    <br>
+    <button class="btn btn-default" (click)="submitted=false">Edit</button>
+    <button class="btn btn-default" (click)="submitted=true">accept</button>
+  </div>-->
+
+</div>

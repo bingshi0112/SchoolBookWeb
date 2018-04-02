@@ -1,0 +1,1152 @@
+{
+  "San Jose State University": {
+    "Fall 2016": {
+      "-KY1NmrhdhUrLp3GbURy": {
+        "course_num": "272",
+        "department": "CMPE",
+        "description": "blah blah blah",
+        "discussion": {
+          "-KY1OAQECKAfJznI64Xh": {
+            "content": "jghjghf",
+            "user_name": "Lâm Trần"
+          },
+          "-KY1dcKnvnBljMlEcyQi": {
+            "content": "hkjh",
+            "user_name": "Lâm Trần"
+          }
+        },
+        "prof": "gsgfsdgds",
+        "section": "02",
+        "teacherAssisstant": "ta"
+      },
+      "-KY1ZhzK2lHBsqHsGiAE": {
+        "course_num": "273",
+        "department": "CMPE",
+        "description": "distributed system",
+        "discussion": {
+          "-KYffAmKlsm9jdTd-ZSf": {
+            "content": "This course is awesome",
+            "user_name": "Lâm Trần"
+          }
+        },
+        "prof": "Sithu",
+        "section": "01",
+        "teacherAssisstant": "AA"
+      },
+      "CMPE-280": {
+        "course_num": "280",
+        "department": "CMPE",
+        "description": "Web User-interface (UI) design and development with contemporary web standards. Understand interaction and interface design principles and processes for rich web applications, mobile web, web graphics, web design fundamentals, tools, interaction using client side scripting and server side frameworks. Pre-requisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+        "discussion": {
+          "-KYoJgKf-aCHddOYSRq7": {
+            "content": "Professor is give us all AAAAA! Super Cool!!",
+            "user_name": "Bing Shi"
+          },
+          "-KWp1AJDVRz8WJdlTiRO": {
+            "content": "280 here",
+            "user_name": "Lam Tran"
+          },
+          "-KWyRpMJuZxY-LSf7sm-": {
+            "content": "This is awesome ",
+            "user_name": "Lam Tran"
+          },
+          "-KYf6jjVtoVUABHSPN-d": {
+            "content": "Just Testing",
+            "user_name": "Omkar"
+          },
+          "-KYoJgKf-aCHe4OYSRq7": {
+            "content": "Testing",
+            "user_name": "Omkar Rege"
+          }
+
+        },
+        "prof": "Duc Huy Doan",
+        "section": "01",
+        "teacherAssisstant": "Obama"
+      }
+    },
+    "Spring 2016": {
+      "-KXmPHjHlZVAA6Mdj51d": {
+        "course_num": "sadf asd",
+        "department": "fdasf",
+        "description": " asd fasd ",
+        "discussion": {
+          "-KXm_g2HxIdMhl5NMc7f": {
+            "content": "This is my comment about this course",
+            "user_name": "Lam Tran"
+          },
+          "-KXm_hE7HCuzHKWXSxkW": {
+            "content": "This is my comment about this course",
+            "user_name": "Lam Tran"
+          },
+          "-KXma0s1UaCJewBFREgR": {
+            "content": "another comment",
+            "user_name": "Lâm Trần"
+          }
+        },
+        "prof": "fds fas",
+        "section": "f asdf",
+        "teacherAssisstant": " dfa"
+      },
+      "-KXmPlfyzMFsxVPXA8jO": {
+        "course_num": "908",
+        "department": "dsoiw",
+        "description": "897",
+        "discussion": {
+          "-KXmPvKqYshJcbSUDcCr": {
+            "content": "asdfas",
+            "user_name": "Lam Tran"
+          },
+          "-KY1U2wv08LOUpOFrYUD": {
+            "content": "this is the second discussion",
+            "user_name": "Lâm Trần"
+          },
+          "-KY1UrQJOIOLKT686C1t": {
+            "content": "third dis",
+            "user_name": "Lâm Trần"
+          },
+          "-KY1V1B_mih7okQKhnNZ": {
+            "content": "4th dis",
+            "user_name": "Lâm Trần"
+          }
+        },
+        "prof": "oifdsf",
+        "section": "897",
+        "teacherAssisstant": "fldka"
+      },
+      "-KY1NmrhdhUrLp3GbURy": {
+        "course_num": "272",
+        "department": "CMPE",
+        "description": "blah blah blah",
+        "discussion": {
+          "-KY1OAQECKAfJznI64Xh": {
+            "content": "jghjghf",
+            "user_name": "Lâm Trần"
+          },
+          "-KY1dcKnvnBljMlEcyQi": {
+            "content": "hkjh",
+            "user_name": "Lâm Trần"
+          }
+        },
+        "prof": "gsgfsdgds",
+        "section": "02",
+        "teacherAssisstant": "ta"
+      },
+      "-KY1ZhzK2lHBsqHsGiAE": {
+        "course_num": "273",
+        "department": "CMPE",
+        "description": "distributed system",
+        "discussion": {
+          "-KYffAmKlsm9jdTd-ZSf": {
+            "content": "This course is awesome",
+            "user_name": "Lâm Trần"
+          }
+        },
+        "prof": "Sithu",
+        "section": "01",
+        "teacherAssisstant": "AA"
+      },
+      "-KY1ZkZ659dNUAwfrZbf": {
+        "course_num": "273",
+        "department": "CMPE",
+        "description": "distributed system",
+        "prof": "Sithu",
+        "section": "01",
+        "teacherAssisstant": "AA"
+      },
+      "-KY1_0lppELk1SxbJOn_": {
+        "course_num": "23",
+        "department": "dfasf",
+        "description": "fdsaf ",
+        "prof": "dsaf",
+        "section": "fd2",
+        "teacherAssisstant": "f das"
+      },
+      "-KY1_OXdgx_mCaMv_5k8": {
+        "course_num": "dfa",
+        "department": "sf",
+        "description": "dfsa",
+        "prof": "dfsa",
+        "section": "fsdaf",
+        "teacherAssisstant": "fdsaf"
+      },
+      "-KY1_WLmzT47zisvi4SW": {
+        "course_num": "gdfsg ",
+        "department": "fdsad",
+        "description": "gfd sgdfs",
+        "discussion": {
+          "-KYf7UM565210YuuYaDP": {
+            "content": "this is awesome",
+            "user_name": "Lâm Trần"
+          }
+        },
+        "prof": "gfds g",
+        "section": "dfsg ds",
+        "teacherAssisstant": "dfsg"
+      },
+      "-KY1dhCXhsJ9lK4IIt5h": {
+        "course_num": "fdasf",
+        "department": "fdsadafdsaf",
+        "description": "ffdsa",
+        "prof": "fdsaf",
+        "section": "dsafdas",
+        "teacherAssisstant": "fdas"
+      },
+      "CMPE-272": {
+        "course_num": "272",
+        "department": "CMPE",
+        "description": "Web User-interface (UI) design and development with contemporary web standards. Understand interaction and interface design principles and processes for rich web applications, mobile web, web graphics, web design fundamentals, tools, interaction using client side scripting and server side frameworks. Pre-requisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+        "discussion": {
+          "0": {
+            "content": "Enterprise software, system and virtualized platforms. Covers OSs, NOS, security, databases (OLTP, Big Data, Analytics), transactions, groupware, components, web services, web, systems management and app development. Covers standards and emerging technologies. Prerequisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+            "user_name": "Bing Shi"
+          },
+          "-KWooga1D7GRUEbv9fix": {
+            "content": "My content",
+            "user_name": "Lam Tran"
+          },
+          "-KWp17DLE0xw00TvebCk": {
+            "content": "stuff stuff",
+            "user_name": "Lam Tran"
+          }
+        },
+        "prof": "Richard Sinn",
+        "section": "01",
+        "teacherAssisstant": "Some Guy"
+      },
+      "CMPE-280": {
+        "course_num": "280",
+        "department": "CMPE",
+        "description": "Web User-interface (UI) design and development with contemporary web standards. Understand interaction and interface design principles and processes for rich web applications, mobile web, web graphics, web design fundamentals, tools, interaction using client side scripting and server side frameworks. Pre-requisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+        "discussion": {
+          "-KWp1AJDVRz8WJdlTiRO": {
+            "content": "280 here",
+            "user_name": "Lam Tran"
+          },
+          "-KWyRpMJuZxY-LSf7sm-": {
+            "content": "This is awesome ",
+            "user_name": "Lam Tran"
+          },
+          "-KXDnOkeAR-8_z2owVV1": {
+            "content": "dsa klfsdaj ;fas",
+            "user_name": "Lam Tran"
+          },
+          "-KYf6jjVtoVUABHSPN-d": {
+            "content": "Just Testing",
+            "user_name": "Omkar"
+          },
+          "-KYoJgKf-aCHe4OYSRq7": {
+            "content": "Testing",
+            "user_name": "Omkar Rege"
+          }
+        },
+        "prof": "Duc Huy Doan",
+        "section": "01",
+        "teacherAssisstant": "Obama"
+      }
+    },
+    "Spring 2017": {
+      "-KXmPHjHlZVAA6Mdj51d": {
+        "course_num": "sadf asd",
+        "department": "fdasf",
+        "description": " asd fasd ",
+        "discussion": {
+          "-KXm_g2HxIdMhl5NMc7f": {
+            "content": "This is my comment about this course",
+            "user_name": "Lam Tran"
+          },
+          "-KXm_hE7HCuzHKWXSxkW": {
+            "content": "This is my comment about this course",
+            "user_name": "Lam Tran"
+          },
+          "-KXma0s1UaCJewBFREgR": {
+            "content": "another comment",
+            "user_name": "Lâm Trần"
+          }
+        },
+        "prof": "fds fas",
+        "section": "f asdf",
+        "teacherAssisstant": " dfa"
+      },
+      "-KXmPlfyzMFsxVPXA8jO": {
+        "course_num": "908",
+        "department": "dsoiw",
+        "description": "897",
+        "discussion": {
+          "-KXmPvKqYshJcbSUDcCr": {
+            "content": "asdfas",
+            "user_name": "Lam Tran"
+          },
+          "-KY1U2wv08LOUpOFrYUD": {
+            "content": "this is the second discussion",
+            "user_name": "Lâm Trần"
+          },
+          "-KY1UrQJOIOLKT686C1t": {
+            "content": "third dis",
+            "user_name": "Lâm Trần"
+          },
+          "-KY1V1B_mih7okQKhnNZ": {
+            "content": "4th dis",
+            "user_name": "Lâm Trần"
+          }
+        },
+        "prof": "oifdsf",
+        "section": "897",
+        "teacherAssisstant": "fldka"
+      },
+      "-KY1NmrhdhUrLp3GbURy": {
+        "course_num": "272",
+        "department": "CMPE",
+        "description": "blah blah blah",
+        "discussion": {
+          "-KY1OAQECKAfJznI64Xh": {
+            "content": "jghjghf",
+            "user_name": "Lâm Trần"
+          },
+          "-KY1dcKnvnBljMlEcyQi": {
+            "content": "hkjh",
+            "user_name": "Lâm Trần"
+          }
+        },
+        "prof": "gsgfsdgds",
+        "section": "02",
+        "teacherAssisstant": "ta"
+      },
+      "-KY1ZhzK2lHBsqHsGiAE": {
+        "course_num": "273",
+        "department": "CMPE",
+        "description": "distributed system",
+        "discussion": {
+          "-KYffAmKlsm9jdTd-ZSf": {
+            "content": "This course is awesome",
+            "user_name": "Lâm Trần"
+          }
+        },
+        "prof": "Sithu",
+        "section": "01",
+        "teacherAssisstant": "AA"
+      },
+      "-KY1ZkZ659dNUAwfrZbf": {
+        "course_num": "273",
+        "department": "CMPE",
+        "description": "distributed system",
+        "prof": "Sithu",
+        "section": "01",
+        "teacherAssisstant": "AA"
+      },
+      "-KY1_0lppELk1SxbJOn_": {
+        "course_num": "23",
+        "department": "dfasf",
+        "description": "fdsaf ",
+        "prof": "dsaf",
+        "section": "fd2",
+        "teacherAssisstant": "f das"
+      },
+      "-KY1_OXdgx_mCaMv_5k8": {
+        "course_num": "dfa",
+        "department": "sf",
+        "description": "dfsa",
+        "prof": "dfsa",
+        "section": "fsdaf",
+        "teacherAssisstant": "fdsaf"
+      },
+      "-KY1_WLmzT47zisvi4SW": {
+        "course_num": "gdfsg ",
+        "department": "fdsad",
+        "description": "gfd sgdfs",
+        "discussion": {
+          "-KYf7UM565210YuuYaDP": {
+            "content": "this is awesome",
+            "user_name": "Lâm Trần"
+          }
+        },
+        "prof": "gfds g",
+        "section": "dfsg ds",
+        "teacherAssisstant": "dfsg"
+      },
+      "-KY1dhCXhsJ9lK4IIt5h": {
+        "course_num": "fdasf",
+        "department": "fdsadafdsaf",
+        "description": "ffdsa",
+        "prof": "fdsaf",
+        "section": "dsafdas",
+        "teacherAssisstant": "fdas"
+      },
+      "CMPE-272": {
+        "course_num": "272",
+        "department": "CMPE",
+        "description": "Web User-interface (UI) design and development with contemporary web standards. Understand interaction and interface design principles and processes for rich web applications, mobile web, web graphics, web design fundamentals, tools, interaction using client side scripting and server side frameworks. Pre-requisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+        "discussion": {
+          "0": {
+            "content": "Enterprise software, system and virtualized platforms. Covers OSs, NOS, security, databases (OLTP, Big Data, Analytics), transactions, groupware, components, web services, web, systems management and app development. Covers standards and emerging technologies. Prerequisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+            "user_name": "Bing Shi"
+          },
+          "-KWooga1D7GRUEbv9fix": {
+            "content": "My content",
+            "user_name": "Lam Tran"
+          },
+          "-KWp17DLE0xw00TvebCk": {
+            "content": "stuff stuff",
+            "user_name": "Lam Tran"
+          }
+        },
+        "prof": "Richard Sinn",
+        "section": "01",
+        "teacherAssisstant": "Some Guy"
+      },
+      "CMPE-280": {
+        "course_num": "280",
+        "department": "CMPE",
+        "description": "Web User-interface (UI) design and development with contemporary web standards. Understand interaction and interface design principles and processes for rich web applications, mobile web, web graphics, web design fundamentals, tools, interaction using client side scripting and server side frameworks. Pre-requisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+        "discussion": {
+          "-KWp1AJDVRz8WJdlTiRO": {
+            "content": "280 here",
+            "user_name": "Lam Tran"
+          },
+          "-KWyRpMJuZxY-LSf7sm-": {
+            "content": "This is awesome ",
+            "user_name": "Lam Tran"
+          },
+          "-KXDnOkeAR-8_z2owVV1": {
+            "content": "dsa klfsdaj ;fas",
+            "user_name": "Lam Tran"
+          },
+          "-KYf6jjVtoVUABHSPN-d": {
+            "content": "Just Testing",
+            "user_name": "Omkar"
+          },
+          "-KYoJgKf-aCHe4OYSRq7": {
+            "content": "Testing",
+            "user_name": "Omkar Rege"
+          }
+        },
+        "prof": "Duc Huy Doan",
+        "section": "01",
+        "teacherAssisstant": "Obama"
+      }
+    }
+
+  }, "Illinois Institute of Technology": {
+  "Spring 2016": {
+    "-KXmPHjHlZVAA6Mdj51d": {
+      "course_num": "sadf asd",
+      "department": "fdasf",
+      "description": " asd fasd ",
+      "discussion": {
+        "-KXm_g2HxIdMhl5NMc7f": {
+          "content": "This is my comment about this course",
+          "user_name": "Lam Tran"
+        },
+        "-KXm_hE7HCuzHKWXSxkW": {
+          "content": "This is my comment about this course",
+          "user_name": "Lam Tran"
+        },
+        "-KXma0s1UaCJewBFREgR": {
+          "content": "another comment",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "fds fas",
+      "section": "f asdf",
+      "teacherAssisstant": " dfa"
+    },
+    "-KXmPlfyzMFsxVPXA8jO": {
+      "course_num": "908",
+      "department": "dsoiw",
+      "description": "897",
+      "discussion": {
+        "-KXmPvKqYshJcbSUDcCr": {
+          "content": "asdfas",
+          "user_name": "Lam Tran"
+        },
+        "-KY1U2wv08LOUpOFrYUD": {
+          "content": "this is the second discussion",
+          "user_name": "Lâm Trần"
+        },
+        "-KY1UrQJOIOLKT686C1t": {
+          "content": "third dis",
+          "user_name": "Lâm Trần"
+        },
+        "-KY1V1B_mih7okQKhnNZ": {
+          "content": "4th dis",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "oifdsf",
+      "section": "897",
+      "teacherAssisstant": "fldka"
+    },
+    "-KY1NmrhdhUrLp3GbURy": {
+      "course_num": "272",
+      "department": "CMPE",
+      "description": "blah blah blah",
+      "discussion": {
+        "-KY1OAQECKAfJznI64Xh": {
+          "content": "jghjghf",
+          "user_name": "Lâm Trần"
+        },
+        "-KY1dcKnvnBljMlEcyQi": {
+          "content": "hkjh",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "gsgfsdgds",
+      "section": "02",
+      "teacherAssisstant": "ta"
+    },
+    "-KY1ZhzK2lHBsqHsGiAE": {
+      "course_num": "273",
+      "department": "CMPE",
+      "description": "distributed system",
+      "discussion": {
+        "-KYffAmKlsm9jdTd-ZSf": {
+          "content": "This course is awesome",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "Sithu",
+      "section": "01",
+      "teacherAssisstant": "AA"
+    },
+    "-KY1ZkZ659dNUAwfrZbf": {
+      "course_num": "273",
+      "department": "CMPE",
+      "description": "distributed system",
+      "prof": "Sithu",
+      "section": "01",
+      "teacherAssisstant": "AA"
+    },
+    "-KY1_0lppELk1SxbJOn_": {
+      "course_num": "23",
+      "department": "dfasf",
+      "description": "fdsaf ",
+      "prof": "dsaf",
+      "section": "fd2",
+      "teacherAssisstant": "f das"
+    },
+    "-KY1_OXdgx_mCaMv_5k8": {
+      "course_num": "dfa",
+      "department": "sf",
+      "description": "dfsa",
+      "prof": "dfsa",
+      "section": "fsdaf",
+      "teacherAssisstant": "fdsaf"
+    },
+    "-KY1_WLmzT47zisvi4SW": {
+      "course_num": "gdfsg ",
+      "department": "fdsad",
+      "description": "gfd sgdfs",
+      "discussion": {
+        "-KYf7UM565210YuuYaDP": {
+          "content": "this is awesome",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "gfds g",
+      "section": "dfsg ds",
+      "teacherAssisstant": "dfsg"
+    },
+    "-KY1dhCXhsJ9lK4IIt5h": {
+      "course_num": "fdasf",
+      "department": "fdsadafdsaf",
+      "description": "ffdsa",
+      "prof": "fdsaf",
+      "section": "dsafdas",
+      "teacherAssisstant": "fdas"
+    },
+    "CMPE-272": {
+      "course_num": "272",
+      "department": "CMPE",
+      "description": "Web User-interface (UI) design and development with contemporary web standards. Understand interaction and interface design principles and processes for rich web applications, mobile web, web graphics, web design fundamentals, tools, interaction using client side scripting and server side frameworks. Pre-requisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+      "discussion": {
+        "0": {
+          "content": "Enterprise software, system and virtualized platforms. Covers OSs, NOS, security, databases (OLTP, Big Data, Analytics), transactions, groupware, components, web services, web, systems management and app development. Covers standards and emerging technologies. Prerequisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+          "user_name": "Bing Shi"
+        },
+        "-KWooga1D7GRUEbv9fix": {
+          "content": "My content",
+          "user_name": "Lam Tran"
+        },
+        "-KWp17DLE0xw00TvebCk": {
+          "content": "stuff stuff",
+          "user_name": "Lam Tran"
+        }
+      },
+      "prof": "Richard Sinn",
+      "section": "01",
+      "teacherAssisstant": "Some Guy"
+    },
+    "CMPE-280": {
+      "course_num": "280",
+      "department": "CMPE",
+      "description": "Web User-interface (UI) design and development with contemporary web standards. Understand interaction and interface design principles and processes for rich web applications, mobile web, web graphics, web design fundamentals, tools, interaction using client side scripting and server side frameworks. Pre-requisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+      "discussion": {
+        "-KWp1AJDVRz8WJdlTiRO": {
+          "content": "280 here",
+          "user_name": "Lam Tran"
+        },
+        "-KWyRpMJuZxY-LSf7sm-": {
+          "content": "This is awesome ",
+          "user_name": "Lam Tran"
+        },
+        "-KXDnOkeAR-8_z2owVV1": {
+          "content": "dsa klfsdaj ;fas",
+          "user_name": "Lam Tran"
+        },
+        "-KYf6jjVtoVUABHSPN-d": {
+          "content": "Just Testing",
+          "user_name": "Omkar"
+        },
+        "-KYoJgKf-aCHe4OYSRq7": {
+          "content": "Testing",
+          "user_name": "Omkar Rege"
+        }
+      },
+      "prof": "Duc Huy Doan",
+      "section": "01",
+      "teacherAssisstant": "Obama"
+    }
+  },
+  "Fall 2016": {
+    "-KXmPHjHlZVAA6Mdj51d": {
+      "course_num": "sadf asd",
+      "department": "fdasf",
+      "description": " asd fasd ",
+      "discussion": {
+        "-KXm_g2HxIdMhl5NMc7f": {
+          "content": "This is my comment about this course",
+          "user_name": "Lam Tran"
+        },
+        "-KXm_hE7HCuzHKWXSxkW": {
+          "content": "This is my comment about this course",
+          "user_name": "Lam Tran"
+        },
+        "-KXma0s1UaCJewBFREgR": {
+          "content": "another comment",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "fds fas",
+      "section": "f asdf",
+      "teacherAssisstant": " dfa"
+    },
+    "-KXmPlfyzMFsxVPXA8jO": {
+      "course_num": "908",
+      "department": "dsoiw",
+      "description": "897",
+      "discussion": {
+        "-KXmPvKqYshJcbSUDcCr": {
+          "content": "asdfas",
+          "user_name": "Lam Tran"
+        },
+        "-KY1U2wv08LOUpOFrYUD": {
+          "content": "this is the second discussion",
+          "user_name": "Lâm Trần"
+        },
+        "-KY1UrQJOIOLKT686C1t": {
+          "content": "third dis",
+          "user_name": "Lâm Trần"
+        },
+        "-KY1V1B_mih7okQKhnNZ": {
+          "content": "4th dis",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "oifdsf",
+      "section": "897",
+      "teacherAssisstant": "fldka"
+    },
+    "-KY1NmrhdhUrLp3GbURy": {
+      "course_num": "272",
+      "department": "CMPE",
+      "description": "blah blah blah",
+      "discussion": {
+        "-KY1OAQECKAfJznI64Xh": {
+          "content": "jghjghf",
+          "user_name": "Lâm Trần"
+        },
+        "-KY1dcKnvnBljMlEcyQi": {
+          "content": "hkjh",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "gsgfsdgds",
+      "section": "02",
+      "teacherAssisstant": "ta"
+    },
+    "-KY1ZhzK2lHBsqHsGiAE": {
+      "course_num": "273",
+      "department": "CMPE",
+      "description": "distributed system",
+      "discussion": {
+        "-KYffAmKlsm9jdTd-ZSf": {
+          "content": "This course is awesome",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "Sithu",
+      "section": "01",
+      "teacherAssisstant": "AA"
+    },
+    "-KY1ZkZ659dNUAwfrZbf": {
+      "course_num": "273",
+      "department": "CMPE",
+      "description": "distributed system",
+      "prof": "Sithu",
+      "section": "01",
+      "teacherAssisstant": "AA"
+    },
+    "-KY1_0lppELk1SxbJOn_": {
+      "course_num": "23",
+      "department": "dfasf",
+      "description": "fdsaf ",
+      "prof": "dsaf",
+      "section": "fd2",
+      "teacherAssisstant": "f das"
+    },
+    "-KY1_OXdgx_mCaMv_5k8": {
+      "course_num": "dfa",
+      "department": "sf",
+      "description": "dfsa",
+      "prof": "dfsa",
+      "section": "fsdaf",
+      "teacherAssisstant": "fdsaf"
+    },
+    "-KY1_WLmzT47zisvi4SW": {
+      "course_num": "gdfsg ",
+      "department": "fdsad",
+      "description": "gfd sgdfs",
+      "discussion": {
+        "-KYf7UM565210YuuYaDP": {
+          "content": "this is awesome",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "gfds g",
+      "section": "dfsg ds",
+      "teacherAssisstant": "dfsg"
+    },
+    "-KY1dhCXhsJ9lK4IIt5h": {
+      "course_num": "fdasf",
+      "department": "fdsadafdsaf",
+      "description": "ffdsa",
+      "prof": "fdsaf",
+      "section": "dsafdas",
+      "teacherAssisstant": "fdas"
+    },
+    "CMPE-272": {
+      "course_num": "272",
+      "department": "CMPE",
+      "description": "Web User-interface (UI) design and development with contemporary web standards. Understand interaction and interface design principles and processes for rich web applications, mobile web, web graphics, web design fundamentals, tools, interaction using client side scripting and server side frameworks. Pre-requisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+      "discussion": {
+        "0": {
+          "content": "Enterprise software, system and virtualized platforms. Covers OSs, NOS, security, databases (OLTP, Big Data, Analytics), transactions, groupware, components, web services, web, systems management and app development. Covers standards and emerging technologies. Prerequisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+          "user_name": "Bing Shi"
+        },
+        "-KWooga1D7GRUEbv9fix": {
+          "content": "My content",
+          "user_name": "Lam Tran"
+        },
+        "-KWp17DLE0xw00TvebCk": {
+          "content": "stuff stuff",
+          "user_name": "Lam Tran"
+        }
+      },
+      "prof": "Richard Sinn",
+      "section": "01",
+      "teacherAssisstant": "Some Guy"
+    },
+    "CMPE-280": {
+      "course_num": "280",
+      "department": "CMPE",
+      "description": "Web User-interface (UI) design and development with contemporary web standards. Understand interaction and interface design principles and processes for rich web applications, mobile web, web graphics, web design fundamentals, tools, interaction using client side scripting and server side frameworks. Pre-requisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+      "discussion": {
+        "-KWp1AJDVRz8WJdlTiRO": {
+          "content": "280 here",
+          "user_name": "Lam Tran"
+        },
+        "-KWyRpMJuZxY-LSf7sm-": {
+          "content": "This is awesome ",
+          "user_name": "Lam Tran"
+        },
+        "-KXDnOkeAR-8_z2owVV1": {
+          "content": "dsa klfsdaj ;fas",
+          "user_name": "Lam Tran"
+        },
+        "-KYf6jjVtoVUABHSPN-d": {
+          "content": "Just Testing",
+          "user_name": "Omkar"
+        },
+        "-KYoJgKf-aCHe4OYSRq7": {
+          "content": "Testing",
+          "user_name": "Omkar Rege"
+        }
+      },
+      "prof": "Duc Huy Doan",
+      "section": "01",
+      "teacherAssisstant": "Obama"
+    }
+  }
+}, "California State University, Fullerton": {
+  "Spring 2016": {
+    "-KXmPHjHlZVAA6Mdj51d": {
+      "course_num": "sadf asd",
+      "department": "fdasf",
+      "description": " asd fasd ",
+      "discussion": {
+        "-KXm_g2HxIdMhl5NMc7f": {
+          "content": "This is my comment about this course",
+          "user_name": "Lam Tran"
+        },
+        "-KXm_hE7HCuzHKWXSxkW": {
+          "content": "This is my comment about this course",
+          "user_name": "Lam Tran"
+        },
+        "-KXma0s1UaCJewBFREgR": {
+          "content": "another comment",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "fds fas",
+      "section": "f asdf",
+      "teacherAssisstant": " dfa"
+    },
+    "-KXmPlfyzMFsxVPXA8jO": {
+      "course_num": "908",
+      "department": "dsoiw",
+      "description": "897",
+      "discussion": {
+        "-KXmPvKqYshJcbSUDcCr": {
+          "content": "asdfas",
+          "user_name": "Lam Tran"
+        },
+        "-KY1U2wv08LOUpOFrYUD": {
+          "content": "this is the second discussion",
+          "user_name": "Lâm Trần"
+        },
+        "-KY1UrQJOIOLKT686C1t": {
+          "content": "third dis",
+          "user_name": "Lâm Trần"
+        },
+        "-KY1V1B_mih7okQKhnNZ": {
+          "content": "4th dis",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "oifdsf",
+      "section": "897",
+      "teacherAssisstant": "fldka"
+    },
+    "-KY1NmrhdhUrLp3GbURy": {
+      "course_num": "272",
+      "department": "CMPE",
+      "description": "blah blah blah",
+      "discussion": {
+        "-KY1OAQECKAfJznI64Xh": {
+          "content": "jghjghf",
+          "user_name": "Lâm Trần"
+        },
+        "-KY1dcKnvnBljMlEcyQi": {
+          "content": "hkjh",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "gsgfsdgds",
+      "section": "02",
+      "teacherAssisstant": "ta"
+    },
+    "-KY1ZhzK2lHBsqHsGiAE": {
+      "course_num": "273",
+      "department": "CMPE",
+      "description": "distributed system",
+      "discussion": {
+        "-KYffAmKlsm9jdTd-ZSf": {
+          "content": "This course is awesome",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "Sithu",
+      "section": "01",
+      "teacherAssisstant": "AA"
+    },
+    "-KY1ZkZ659dNUAwfrZbf": {
+      "course_num": "273",
+      "department": "CMPE",
+      "description": "distributed system",
+      "prof": "Sithu",
+      "section": "01",
+      "teacherAssisstant": "AA"
+    },
+    "-KY1_0lppELk1SxbJOn_": {
+      "course_num": "23",
+      "department": "dfasf",
+      "description": "fdsaf ",
+      "prof": "dsaf",
+      "section": "fd2",
+      "teacherAssisstant": "f das"
+    },
+    "-KY1_OXdgx_mCaMv_5k8": {
+      "course_num": "dfa",
+      "department": "sf",
+      "description": "dfsa",
+      "prof": "dfsa",
+      "section": "fsdaf",
+      "teacherAssisstant": "fdsaf"
+    },
+    "-KY1_WLmzT47zisvi4SW": {
+      "course_num": "gdfsg ",
+      "department": "fdsad",
+      "description": "gfd sgdfs",
+      "discussion": {
+        "-KYf7UM565210YuuYaDP": {
+          "content": "this is awesome",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "gfds g",
+      "section": "dfsg ds",
+      "teacherAssisstant": "dfsg"
+    },
+    "-KY1dhCXhsJ9lK4IIt5h": {
+      "course_num": "fdasf",
+      "department": "fdsadafdsaf",
+      "description": "ffdsa",
+      "prof": "fdsaf",
+      "section": "dsafdas",
+      "teacherAssisstant": "fdas"
+    },
+    "CMPE-272": {
+      "course_num": "272",
+      "department": "CMPE",
+      "description": "Web User-interface (UI) design and development with contemporary web standards. Understand interaction and interface design principles and processes for rich web applications, mobile web, web graphics, web design fundamentals, tools, interaction using client side scripting and server side frameworks. Pre-requisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+      "discussion": {
+        "0": {
+          "content": "Enterprise software, system and virtualized platforms. Covers OSs, NOS, security, databases (OLTP, Big Data, Analytics), transactions, groupware, components, web services, web, systems management and app development. Covers standards and emerging technologies. Prerequisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+          "user_name": "Bing Shi"
+        },
+        "-KWooga1D7GRUEbv9fix": {
+          "content": "My content",
+          "user_name": "Lam Tran"
+        },
+        "-KWp17DLE0xw00TvebCk": {
+          "content": "stuff stuff",
+          "user_name": "Lam Tran"
+        }
+      },
+      "prof": "Richard Sinn",
+      "section": "01",
+      "teacherAssisstant": "Some Guy"
+    },
+    "CMPE-280": {
+      "course_num": "280",
+      "department": "CMPE",
+      "description": "Web User-interface (UI) design and development with contemporary web standards. Understand interaction and interface design principles and processes for rich web applications, mobile web, web graphics, web design fundamentals, tools, interaction using client side scripting and server side frameworks. Pre-requisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+      "discussion": {
+        "-KWp1AJDVRz8WJdlTiRO": {
+          "content": "280 here",
+          "user_name": "Lam Tran"
+        },
+        "-KWyRpMJuZxY-LSf7sm-": {
+          "content": "This is awesome ",
+          "user_name": "Lam Tran"
+        },
+        "-KXDnOkeAR-8_z2owVV1": {
+          "content": "dsa klfsdaj ;fas",
+          "user_name": "Lam Tran"
+        },
+        "-KYf6jjVtoVUABHSPN-d": {
+          "content": "Just Testing",
+          "user_name": "Omkar"
+        },
+        "-KYoJgKf-aCHe4OYSRq7": {
+          "content": "Testing",
+          "user_name": "Omkar Rege"
+        }
+      },
+      "prof": "Duc Huy Doan",
+      "section": "01",
+      "teacherAssisstant": "Obama"
+    }
+  },
+  "Fall 2016": {
+    "-KXmPHjHlZVAA6Mdj51d": {
+      "course_num": "sadf asd",
+      "department": "fdasf",
+      "description": " asd fasd ",
+      "discussion": {
+        "-KXm_g2HxIdMhl5NMc7f": {
+          "content": "This is my comment about this course",
+          "user_name": "Lam Tran"
+        },
+        "-KXm_hE7HCuzHKWXSxkW": {
+          "content": "This is my comment about this course",
+          "user_name": "Lam Tran"
+        },
+        "-KXma0s1UaCJewBFREgR": {
+          "content": "another comment",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "fds fas",
+      "section": "f asdf",
+      "teacherAssisstant": " dfa"
+    },
+    "-KXmPlfyzMFsxVPXA8jO": {
+      "course_num": "908",
+      "department": "dsoiw",
+      "description": "897",
+      "discussion": {
+        "-KXmPvKqYshJcbSUDcCr": {
+          "content": "asdfas",
+          "user_name": "Lam Tran"
+        },
+        "-KY1U2wv08LOUpOFrYUD": {
+          "content": "this is the second discussion",
+          "user_name": "Lâm Trần"
+        },
+        "-KY1UrQJOIOLKT686C1t": {
+          "content": "third dis",
+          "user_name": "Lâm Trần"
+        },
+        "-KY1V1B_mih7okQKhnNZ": {
+          "content": "4th dis",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "oifdsf",
+      "section": "897",
+      "teacherAssisstant": "fldka"
+    },
+    "-KY1NmrhdhUrLp3GbURy": {
+      "course_num": "272",
+      "department": "CMPE",
+      "description": "blah blah blah",
+      "discussion": {
+        "-KY1OAQECKAfJznI64Xh": {
+          "content": "jghjghf",
+          "user_name": "Lâm Trần"
+        },
+        "-KY1dcKnvnBljMlEcyQi": {
+          "content": "hkjh",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "gsgfsdgds",
+      "section": "02",
+      "teacherAssisstant": "ta"
+    },
+    "-KY1ZhzK2lHBsqHsGiAE": {
+      "course_num": "273",
+      "department": "CMPE",
+      "description": "distributed system",
+      "discussion": {
+        "-KYffAmKlsm9jdTd-ZSf": {
+          "content": "This course is awesome",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "Sithu",
+      "section": "01",
+      "teacherAssisstant": "AA"
+    },
+    "-KY1ZkZ659dNUAwfrZbf": {
+      "course_num": "273",
+      "department": "CMPE",
+      "description": "distributed system",
+      "prof": "Sithu",
+      "section": "01",
+      "teacherAssisstant": "AA"
+    },
+    "-KY1_0lppELk1SxbJOn_": {
+      "course_num": "23",
+      "department": "dfasf",
+      "description": "fdsaf ",
+      "prof": "dsaf",
+      "section": "fd2",
+      "teacherAssisstant": "f das"
+    },
+    "-KY1_OXdgx_mCaMv_5k8": {
+      "course_num": "dfa",
+      "department": "sf",
+      "description": "dfsa",
+      "prof": "dfsa",
+      "section": "fsdaf",
+      "teacherAssisstant": "fdsaf"
+    },
+    "-KY1_WLmzT47zisvi4SW": {
+      "course_num": "gdfsg ",
+      "department": "fdsad",
+      "description": "gfd sgdfs",
+      "discussion": {
+        "-KYf7UM565210YuuYaDP": {
+          "content": "this is awesome",
+          "user_name": "Lâm Trần"
+        }
+      },
+      "prof": "gfds g",
+      "section": "dfsg ds",
+      "teacherAssisstant": "dfsg"
+    },
+    "-KY1dhCXhsJ9lK4IIt5h": {
+      "course_num": "fdasf",
+      "department": "fdsadafdsaf",
+      "description": "ffdsa",
+      "prof": "fdsaf",
+      "section": "dsafdas",
+      "teacherAssisstant": "fdas"
+    },
+    "CMPE-272": {
+      "course_num": "272",
+      "department": "CMPE",
+      "description": "Web User-interface (UI) design and development with contemporary web standards. Understand interaction and interface design principles and processes for rich web applications, mobile web, web graphics, web design fundamentals, tools, interaction using client side scripting and server side frameworks. Pre-requisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+      "discussion": {
+        "0": {
+          "content": "Enterprise software, system and virtualized platforms. Covers OSs, NOS, security, databases (OLTP, Big Data, Analytics), transactions, groupware, components, web services, web, systems management and app development. Covers standards and emerging technologies. Prerequisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+          "user_name": "Bing Shi"
+        },
+        "-KWooga1D7GRUEbv9fix": {
+          "content": "My content",
+          "user_name": "Lam Tran"
+        },
+        "-KWp17DLE0xw00TvebCk": {
+          "content": "stuff stuff",
+          "user_name": "Lam Tran"
+        }
+      },
+      "prof": "Richard Sinn",
+      "section": "01",
+      "teacherAssisstant": "Some Guy"
+    },
+    "CMPE-280": {
+      "course_num": "280",
+      "department": "CMPE",
+      "description": "Web User-interface (UI) design and development with contemporary web standards. Understand interaction and interface design principles and processes for rich web applications, mobile web, web graphics, web design fundamentals, tools, interaction using client side scripting and server side frameworks. Pre-requisite: Classified graduate standing or instructor consent. Computer Engineering and Software Engineering majors only.",
+      "discussion": {
+        "-KWp1AJDVRz8WJdlTiRO": {
+          "content": "280 here",
+          "user_name": "Lam Tran"
+        },
+        "-KWyRpMJuZxY-LSf7sm-": {
+          "content": "This is awesome ",
+          "user_name": "Lam Tran"
+        },
+        "-KXDnOkeAR-8_z2owVV1": {
+          "content": "dsa klfsdaj ;fas",
+          "user_name": "Lam Tran"
+        },
+        "-KYf6jjVtoVUABHSPN-d": {
+          "content": "Just Testing",
+          "user_name": "Omkar"
+        },
+        "-KYoJgKf-aCHe4OYSRq7": {
+          "content": "Testing",
+          "user_name": "Omkar Rege"
+        }
+      },
+      "prof": "Duc Huy Doan",
+      "section": "01",
+      "teacherAssisstant": "Obama"
+    }
+  }
+}
+}

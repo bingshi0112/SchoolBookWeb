@@ -1,0 +1,40 @@
+<div style="background-image: url('../../../img/denim.png')">
+<div class="container"  *ngIf="product" >
+    <div class="row">
+        <div class="col-md-9">
+            <div class="thumbnail">
+                <img class="img-responsive" [src]="product.imageUrl" alt="">
+                <div class="caption-full">
+                    <h4 class="pull-right">{{ product.price| currency:'USD':true:'2.2-2' }}</h4>
+                    <h4><a href="#">{{product.name}}</a></h4>
+                    <p>{{product.description}}</p>
+                </div>
+                <div class="ratings">
+                    <p class="pull-right">{{product.reviews?product.reviews.length:0}} reviews</p>
+                    <p *ngIf="product.rating">
+                        <ratings [isClicked]="product.rating.star[0]==0?false:true" (starClicked)="starIsClicked($event)"></ratings>
+                        <ratings [isClicked]="product.rating.star[1]==0?false:true" (starClicked)="starIsClicked($event)"></ratings>
+                        <ratings [isClicked]="product.rating.star[2]==0?false:true" (starClicked)="starIsClicked($event)"></ratings>
+                        <ratings [isClicked]="product.rating.star[3]==0?false:true" (starClicked)="starIsClicked($event)"></ratings>
+                        <ratings [isClicked]="product.rating.star[4]==0?false:true" (starClicked)="starIsClicked($event)"></ratings>
+                    </p>
+                </div>
+            </div>
+            <div class="well">
+                Contact Information :
+                <p>Name : &nbsp;&nbsp;{{product.owner.firstName}}</p>
+                <p>Email: &nbsp;&nbsp;{{product.owner.emailId}}</p>
+
+            </div>
+
+            <div class="well" >
+                <div class="text-right">
+                    <discussions [isRatingRequired]="isStarsRequired" [url]="productServiceUrl"  [product]="product"></discussions>
+                </div>
+                <hr>
+            </div>
+
+    </div>
+</div>
+</div>
+</div>

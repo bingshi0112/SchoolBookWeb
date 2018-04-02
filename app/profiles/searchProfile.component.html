@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
+            <div class="flex-container">
+            <!--<div class="flex-container-search">-->
+
+              <form class="form-group flex-item-search" (ngSubmit)="onSearch()">
+                <div class="input-group">
+                    <label for="searchBox"></label>
+                    <input type="text" class="form-control" id="searchBox" [(ngModel)]="searchKeyWord"
+                           placeholder="search by name" name="searchBox">
+                    <span class="input-group-btn">
+                      <button type="submit" class="btn btn-default btn-md">
+                        <span class="glyphicon glyphicon-search"></span> Search</button>
+                    </span>
+                </div>
+              </form>
+            <!--</div>-->
+            <!--<div class="flex-container-result">-->
+                <div class="flex-item-result">
+                    <!--<p id="head">Profile search result</p>-->
+                    <div *ngFor="let user of users">
+                        <a [routerLink]="['/profile', user.facebookID]">{{user.firstName}} {{user.lastName}}</a>
+                    </div>
+                </div>
+            <!--</div>-->
+          </div>
+        </div>
+        <div class="col-xs-2">
+            <!--<a class="btn btn-primary" [routerLink]="['/profiles']" id="btnBack"><p id="back">Back to profile page
+                <p></a>-->
+        </div>
+    </div>
+</div>

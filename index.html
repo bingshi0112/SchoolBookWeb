@@ -1,0 +1,53 @@
+<html>
+<head>
+    <base href="/">
+
+    <title>SchoolBook</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="forms.css">
+    <!-- 1. Load libraries -->
+    <!-- Polyfill(s) for older browsers -->
+
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="node_modules/underscore/underscore.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script>
+        System.import('app').catch(function (err) {
+            console.error(err);
+        });
+    </script>
+    <script type="text/javascript" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <!--3 Configuration for firebase-->
+    <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyD66jZLaUXsLqEk_U42ON8Z1eBG0l2wTrA",
+            authDomain: "project-9827f.firebaseapp.com",
+            databaseURL: "https://project-9827f.firebaseio.com",
+            storageBucket: "project-9827f.appspot.com",
+            messagingSenderId: "599462137395"
+        };
+        firebase.initializeApp(config);
+        //underscore
+
+    </script>
+
+</head>
+<!-- 3. Display the application -->
+<body>
+<!-- <div id="fb-root"></div> -->
+
+<app>Loading...</app>
+</body>
+</html>

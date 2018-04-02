@@ -1,0 +1,34 @@
+<div class="row center-block">
+    <h1 class="col-xs-4 col-xs-offset-4 center-align course-title">{{title}}</h1>
+</div>
+
+<div *ngIf="course" class="row well">
+    <div class="col-xs-8 col-xs-offset-2">
+        <span class="course-detail-content">University:</span><h3 class="course-detail-content"> {{course.university}}</h3>
+        <div class="divider"></div>
+        <span class="course-detail-content">Semester:</span><h3 class="course-detail-content"> {{course.semester}}</h3>
+        <div class="divider"></div>
+        <span class="course-detail-content">Department: </span><h3 class="course-detail-content">{{course.department}}</h3>
+        <div class="divider"></div>
+        <span class="course-detail-content">Course Number: </span><h3 class="course-detail-content">{{course.course_num}}</h3>
+        <div class="divider"></div>
+        <span class="course-detail-content">Section: </span><h3 class="course-detail-content">{{course.section}}</h3>
+        <div class="divider"></div>
+        <span class="course-detail-content">Professor: </span><h3 class="course-detail-content">{{course.prof}}</h3>
+        <div class="divider"></div>
+        <span class="course-detail-content">Description: </span><h3 class="course-detail-content">{{course.description}}</h3>
+        <div class="divider"></div>
+        <span class="course-detail-content">TA: </span><h3 class="course-detail-content">{{course.teacherAssisstant}}</h3>
+
+        <div class="divider"></div>
+    </div>
+
+    <div  class="col-xs-8 col-xs-offset-2 well discussion-box">
+        Discussion:
+        <div class="text-right">
+            <discussions [isRatingRequired]="false"  [url]="url"></discussions>
+        </div>
+        <hr>
+    </div>
+
+</div>

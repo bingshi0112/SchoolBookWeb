@@ -1,0 +1,41 @@
+<div class="container" style="width: inherit;position: relative;margin: auto">
+    <div class="row" style="margin-top:40px;">
+        <div *ngIf="!isRatingRequired" class="col-md-9">
+            <discussion-list-row  *ngFor="let item of discussions"
+                                 [discussion]="item">
+            </discussion-list-row>
+        </div>
+
+        <div *ngIf="isRatingRequired && userReviews" class="col-md-9">
+            <discussion-list-row  *ngFor="let review of userReviews"
+                                 [userReviews]="review">
+            </discussion-list-row>
+        </div>
+
+        <div class="col-md-9" *ngIf="isLoggedIn">
+            <div class="well well-sm">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ratings  *ngIf="isRatingRequired" [isClicked]="stars[0]" [value]="1" (starClicked)="onStarClick($event)"></ratings>
+                        <ratings  *ngIf="isRatingRequired" [isClicked]="stars[1]" [value]="2" (starClicked)="onStarClick($event)"></ratings>
+                        <ratings *ngIf="isRatingRequired"  [isClicked]="stars[2]" [value]="3" (starClicked)="onStarClick($event)"></ratings>
+                        <ratings *ngIf="isRatingRequired"  [isClicked]="stars[3]" [value]="4" (starClicked)="onStarClick($event)"></ratings>
+                        <ratings *ngIf="isRatingRequired"  [isClicked]="stars[4]" [value]="5"  (starClicked)="onStarClick($event)"></ratings>
+
+                        <textarea class="form-control animated" cols="50" style="resize: none;"
+                                  placeholder="Enter your review here..." rows="2"
+                                  [(ngModel)]="newReview"></textarea>
+
+                        <div class="text-center" style="margin-top: 10px">
+                            <a class="btn btn-success" (click)="onPostDiscussionClick()">
+                                <i class="glyphicon glyphicon-ok"></i>Save</a>
+
+                            <a class="btn btn-danger" (click)="onCancel()">
+                                <i class="glyphicon glyphicon-remove"></i>Cancel</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!--end of row-->
+</div><!--end of container-->

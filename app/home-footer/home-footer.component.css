@@ -1,0 +1,38 @@
+.footer {
+  /*padding: 0;*/
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: #444;
+  padding-left: 0;
+  /*padding-right: 10%;*/
+  background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
+  background-image: linear-gradient(#fff, #ccc);
+}
+
+.footer .row div {
+  color: black;
+  text-align: center;
+}
+
+.footer .row ul {
+  list-style: none;
+  text-align: center;
+
+}
+
+.footer .row ul li{
+  list-style-position: outside;
+  text-align: center;
+  padding-left: 0;
+  /*color: #444;*/
+}
+
+.footer .row .copyright{
+  text-align: left;
+}
+
+.footer .row li{
+  color: #444;
+}
